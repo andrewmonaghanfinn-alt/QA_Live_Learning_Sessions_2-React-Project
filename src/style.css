@@ -12,6 +12,11 @@ body {
   font-size: clamp(14px, 2vw, 22px);
 }
 
+.main-button:hover {
+  background-color: #757e3b;
+  transition: background-color 0.2s ease;
+}
+
 header {
   background-color: #b6c559;
   color: #ffffff;
@@ -134,4 +139,9 @@ nav a:hover {
   height: 20px;
   cursor: pointer;
   font-size: clamp(14px, 2vw, 22px);
+}
+
+.shop-button:hover {
+  background-color: #757e3b;
+  transition: background-color 0.2s ease;
 }
